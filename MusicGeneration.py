@@ -1,11 +1,9 @@
 import os
-from dotenv import load_dotenv
 import replicate
 import streamlit as st
 
-load_dotenv()
 
-API_TOKEN = os.getenv('REPLICATE_API_TOKEN')
+API_TOKEN = 'r8_U87hJHYC7Xv6JZxryOqfFzPt7PBHyXd08Faj2'
 
 api = replicate.Client(api_token=API_TOKEN)
 
