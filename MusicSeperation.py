@@ -3,7 +3,7 @@ import replicate
 import streamlit as st
 
 
-API_TOKEN = 'r8_BFVwl9hCJa18JvMYip5kGNsNglgUviQ3NNVV2'
+API_TOKEN = 'r8_I8pXU6NNDCtG1ryedtFiIU1TtZpIyay2wKHnr'
 
 api = replicate.Client(api_token=API_TOKEN)
 
